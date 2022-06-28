@@ -1,0 +1,50 @@
+{
+    "RabbitMq":{
+        "Login":"device",
+        "Password":"ephor2021",
+        "Address":"188.225.18.140",
+        "Port":"5672",
+        "maxAttempts": 10,
+        "ExecuteTimeSeconds": 10
+    },
+    "Db":{
+        "Login":"postgres",
+        "Password":"123",
+        "Addresss":"127.0.0.1",
+        "DatabaseName":"postgres",
+        "Port":5432,
+        "PgConnectionPool": 20
+    },
+    "Services":{
+        "Http":{
+            "Address":"127.0.0.1",
+            "Port":"8040"
+        },
+        "EphorPay":{
+            "NameQueue": "ephor.1.pay.test",
+            "Bank":{
+                "ExecuteMinutes":3,
+                "PollingTime": 1500 
+            }
+        },
+        "EphorCommand":{
+            "NameQueue": "ephor.1.command.test",
+            "ExecuteMinutes": 1,
+            "Listener":{
+                "ExecuteMinutes": 1
+            }
+        },
+        "EphorFiscal":{
+            "NameQueue": "ephor.1.fiscal.test",
+            "ResponseUrl": "http://dev10.ephor.online/api/1.0/Fiscal.php?action=Finish",
+            "ExecuteMinutes": 10,
+            "SleepMilliSec": 1500,
+            "Listener":{
+                "ExecuteMinutes": 1
+            }
+        }
+    },
+    "ExecuteMinutes": 10,
+    "LogFile": "Log.txt",
+    "Debug": true
+}

@@ -1,0 +1,54 @@
+
+http.go:55: HTTP server Shutdown completed successfully
+microservice.go:44: I'm Stopping!
+microservice.go:99: Start serviceEphor
+microservice.go:73: Load Config...
+microservice.go:94: Load Logger...
+microservice.go:103: Start serviceEphor
+microservice.go:26: Running in terminal.
+microservice.go:37: postgres
+http.go:55: HTTP server Shutdown completed successfully
+microservice.go:44: I'm Stopping!
+microservice.go:73: Load Config...
+microservice.go:94: Load Logger...
+microservice.go:103: Start serviceEphor
+microservice.go:26: Running in terminal.
+microservice.go:37: postgres
+http.go:55: HTTP server Shutdown completed successfully
+microservice.go:44: I'm Stopping!
+microservice.go:73: Load Config...
+microservice.go:94: Load Logger...
+microservice.go:103: Start serviceEphor
+microservice.go:26: Running in terminal.
+microservice.go:37: postgres
+http.go:33: 127.0.0.1:8040
+http.go:56: HTTP server Shutdown completed successfully
+microservice.go:44: I'm Stopping!
+microservice.go:73: Load Config...
+microservice.go:94: Load Logger...
+microservice.go:103: Start serviceEphor
+microservice.go:26: Running in terminal.
+microservice.go:37: postgres
+http.go:33: :8040
+http.go:56: HTTP server Shutdown completed successfully
+microservice.go:44: I'm Stopping!
+microservice.go:73: Load Config...
+microservice.go:94: Load Logger...
+microservice.go:103: Start serviceEphor
+microservice.go:26: Running in terminal.
+microservice.go:37: postgres
+http.go:33: :8040
+http.go:23: http: Server closed
+http.go:24: Start listeners Server
+http.go:56: HTTP server Shutdown completed successfully
+microservice.go:44: I'm Stopping!
+microservice.go:73: Load Config...
+microservice.go:94: Load Logger...
+microservice.go:103: Start serviceEphor
+microservice.go:26: Running in terminal.
+microservice.go:37: postgres
+http.go:33: :8040
+http.go:23: http: Server closed
+http.go:24: Start listeners Server
+http.go:56: HTTP server Shutdown completed successfully
+microservice.go:44: I'm Stopping!
